@@ -8,12 +8,7 @@ export default function Home() {
   return (
     <Box>
       <Navbar />
-      <Stack
-        direction={"row"}
-        spacing={2}
-        justifyContent={"space-evenly"}
-        sx={{ backgroundColor: "red" }}
-      >
+      <Stack direction={"row"} spacing={2} justifyContent={"space-evenly"}>
         <SideBar />
         <Feed />
         <RightBar />
